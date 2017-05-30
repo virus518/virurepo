@@ -1,0 +1,5 @@
+projectKey=com.maventraining.devops:SampleJavaProject
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/com.maventraining.devops:SampleJavaProject
+ceTaskId=AVv_0-3BfVlnPXxhp5Yi
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVv_0-3BfVlnPXxhp5Yi

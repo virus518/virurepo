@@ -1,0 +1,30 @@
+Open command prompt:
+   (1) press windows+R and type cmd and press enter
+ or (2)  type the text either cmd or command in windows Cortana,
+         you will notice shortcut to Command Prompt desktop app.
+         Press enter key after it is highlighed or click on it using mouse.
+
+now your are in your windows home directory
+
+type cd\ at your windows prompt
+
+create a directory structure such as  mavendemo\MVNProject in C drive or appropriate drive.
+
+using cd command enter to the created project foler called "MVNProject"
+
+Type  cd c:\mavendemo\MVNProject
+
+mvn archetype:generate -DgroupId={project-packaging} -DartifactId={project-name} -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+C:\mavendemo\MVNProject>mvn archetype:generate -DgroupId=com.maventraining.devops -DartifactId=SampleJavaProject  -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+C:\mavendemo\MVNProject\SampleJavaProject>mvn package
+
+C:\mavendemo\MVNProject\SampleJavaProject\target>java -cp  SampleJavaProject-1.0-SNAPSHOT.jar com.maventraining.devops.App
+Hello World!
+
+############
+
+C:\mavendemo\MVNProject\SampleJavaProject>mvn clean package
+C:\mavendemo\MVNProject\SampleJavaProject>mvn site
+
