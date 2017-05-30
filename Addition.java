@@ -12,4 +12,5 @@ c = a+b;
 System.out.println("\nSum of two numbers:"+ c);
 }
 }
+
  
